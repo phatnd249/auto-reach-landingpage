@@ -106,11 +106,11 @@ export default function FAQSection() {
                     className="w-full flex items-center justify-between p-4 sm:p-5 text-left focus:outline-none"
                     aria-expanded={isOpen}
                   >
-                    <div className="flex items-center gap-4">
+                    <div className="flex items-center gap-3 sm:gap-4 min-w-0">
                       <span className="w-9 h-9 rounded-full bg-sky-100 text-sky-700 font-extrabold text-sm flex items-center justify-center flex-shrink-0">
                         {faq.num}
                       </span>
-                      <span className="text-base sm:text-lg font-extrabold text-navy-900 tracking-tight">
+                      <span className="text-sm sm:text-base lg:text-lg font-extrabold text-navy-900 tracking-tight leading-snug">
                         {faq.question}
                       </span>
                     </div>
@@ -131,7 +131,7 @@ export default function FAQSection() {
 
                   {/* Accordion Answer Content */}
                   {isOpen && (
-                    <div className="px-5 pb-5 pt-2 text-sm sm:text-base text-slate-600 leading-relaxed pl-16 border-t border-sky-100/60 mt-1">
+                    <div className="px-4 sm:px-5 pb-5 pt-2 text-sm sm:text-base text-slate-600 leading-relaxed pl-[3.25rem] sm:pl-16 border-t border-sky-100/60 mt-1">
                       {faq.answer}
                     </div>
                   )}

@@ -116,14 +116,14 @@ export default function TargetAudienceSection() {
 
           {/* Right Column (7 cols): Navy Showcase Panel with 4 Orbiting Cards */}
           <div className="lg:col-span-7">
-            <div className="relative rounded-3xl p-6 sm:p-10 bg-gradient-to-br from-blue-900 via-navy-900 to-blue-950 border border-blue-800/50 shadow-2xl shadow-blue-950/40 overflow-hidden">
+            <div className="relative rounded-3xl p-5 min-[400px]:p-6 sm:p-10 bg-gradient-to-br from-blue-900 via-navy-900 to-blue-950 border border-blue-800/50 shadow-2xl shadow-blue-950/40 overflow-hidden">
               {/* Subtle background glow inside panel */}
               <div className="absolute inset-0 pointer-events-none">
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-cyan-500/15 blur-3xl" />
               </div>
 
               {/* 4 Cards Grid with Center Node */}
-              <div className="relative grid grid-cols-2 gap-6 sm:gap-12 items-center justify-items-center mb-8">
+              <div className="relative grid grid-cols-2 gap-4 min-[400px]:gap-6 sm:gap-12 items-center justify-items-center mb-8">
                 {/* Connector Lines SVG */}
                 <svg className="absolute inset-0 w-full h-full pointer-events-none z-0 opacity-40">
                   <line x1="25%" y1="25%" x2="50%" y2="50%" stroke="#38bdf8" strokeWidth="2" strokeDasharray="4 4" />
@@ -186,11 +186,11 @@ export default function TargetAudienceSection() {
 
                 {/* Central Glowing Orb Node */}
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-20 pointer-events-none">
-                  <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full bg-white shadow-2xl border-4 border-cyan-400/80 flex flex-col items-center justify-center p-2 text-center">
+                  <div className="w-24 h-24 min-[400px]:w-28 min-[400px]:h-28 sm:w-32 sm:h-32 rounded-full bg-white shadow-2xl border-4 border-cyan-400/80 flex flex-col items-center justify-center p-2 text-center">
                     <img
                       src={logoAutoReach}
                       alt="AutoReach"
-                      className="w-14 h-14 sm:w-16 sm:h-16 object-contain"
+                      className="w-12 h-12 min-[400px]:w-14 min-[400px]:h-14 sm:w-16 sm:h-16 object-contain"
                     />
                     <span className="text-xs font-black text-navy-900 mt-0.5 tracking-tight">
                       AutoReach
@@ -203,7 +203,7 @@ export default function TargetAudienceSection() {
 
               {/* Bottom Slogan inside Panel */}
               <div className="relative text-center z-10 pt-2 border-t border-white/10">
-                <p className="text-base sm:text-lg font-black text-white tracking-widest uppercase">
+                <p className="text-sm sm:text-base lg:text-lg font-black text-white tracking-widest uppercase">
                   MỘT HỆ THỐNG – NHIỀU NHU CẦU
                 </p>
               </div>

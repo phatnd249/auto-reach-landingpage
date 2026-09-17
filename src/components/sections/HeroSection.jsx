@@ -61,7 +61,7 @@ export default function HeroSection() {
             </div>
 
             {/* Heading — Vibrant Cyan matching design */}
-            <h1 className="text-3xl sm:text-4xl lg:text-[3.25rem] font-black text-[#00c2ff] leading-[1.18] tracking-tight mb-6 uppercase">
+            <h1 className="text-2xl sm:text-4xl lg:text-[3.25rem] font-black text-[#00c2ff] leading-[1.18] tracking-tight mb-6 uppercase">
               TỰ ĐỘNG HÓA NỘI DUNG –
               <br />
               MỞ RỘNG KHẢ NĂNG TIẾP CẬN
@@ -114,7 +114,7 @@ export default function HeroSection() {
             </div>
 
             {/* Bottom 3 Features Inline Strip with Dividers */}
-            <div className="flex items-center gap-3 sm:gap-6 text-white text-sm sm:text-base font-semibold pt-2 whitespace-nowrap">
+            <div className="flex flex-wrap items-center gap-x-3 sm:gap-x-6 gap-y-2 text-white text-sm sm:text-base font-semibold pt-2">
               {/* 1. Tiết kiệm thời gian */}
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-[#00c2ff] flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.2}>
