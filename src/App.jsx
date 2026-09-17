@@ -6,7 +6,6 @@ import ProcessSection from './components/sections/ProcessSection'
 import FeaturesSection from './components/sections/FeaturesSection'
 import ValueSection from './components/sections/ValueSection'
 import TargetAudienceSection from './components/sections/TargetAudienceSection'
-import TeamProjectSection from './components/sections/TeamProjectSection'
 import FAQSection from './components/sections/FAQSection'
 import CTASection from './components/sections/CTASection'
 import Footer from './components/sections/Footer'
@@ -23,7 +22,6 @@ function App() {
         <FeaturesSection />
         <ValueSection />
         <TargetAudienceSection />
-        <TeamProjectSection />
         <FAQSection />
         <CTASection />
       </main>
