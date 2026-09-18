@@ -61,10 +61,12 @@ export default function HeroSection() {
             </div>
 
             {/* Heading — Vibrant Cyan matching design */}
-            <h1 className="text-2xl sm:text-4xl lg:text-[3.25rem] font-black text-[#00c2ff] leading-[1.18] tracking-tight mb-6 uppercase">
+            <h1 className="text-2xl sm:text-3xl lg:text-[2.65rem] xl:text-[2.85rem] font-black text-[#00c2ff] leading-[1.2] tracking-tight mb-6 uppercase">
               TỰ ĐỘNG HÓA NỘI DUNG –
               <br />
-              MỞ RỘNG KHẢ NĂNG TIẾP CẬN
+              MỞ RỘNG KHẢ NĂNG
+              <br />
+              TIẾP CẬN
             </h1>
 
             {/* Description — Crisp white text */}
